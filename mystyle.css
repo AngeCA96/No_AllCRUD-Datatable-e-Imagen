@@ -1,0 +1,49 @@
+.leftside, .rightside{
+    height: 80vh;
+    width: 100%;
+}
+            
+@media only screen and (max-width:800px){
+    .leftside, .rightside{
+        height: auto;
+        width: 100%;
+    }
+}
+            
+.leftside{
+    background: #e6fffe;
+    box-sizing: content-box;
+    width: 100%;
+    display: block;
+    padding-top: 25px;
+}
+            
+.rightside{
+    background: #f3e3ff;
+    overflow: hidden;
+    float: right;
+    display: block;
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+            
+#formulario{
+    float: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+#botoncitopdf{
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#botoncitoxml{
+    float: none;
+    margin-bottom: 10px;
+    margin-left: inherit;
+}
